@@ -9,7 +9,13 @@
       <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
    </padding>
    
-  
+   <children>
+      <Label text="Event Details" styleClass="form-title" />
+
+      <VBox spacing="8">
+         <Label text="Title:" />
+         <TextField fx:id="titleField" promptText="Enter event title" />
+      </VBox>
 
       <VBox spacing="8">
          <Label text="Description:" />

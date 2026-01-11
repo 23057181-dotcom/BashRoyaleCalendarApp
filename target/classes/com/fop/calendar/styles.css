@@ -907,3 +907,8 @@
 .dialog-scroll-pane .scroll-bar:vertical .decrement-button {
     -fx-background-color: #2D2D2D;
 }
+
+.dialog-scroll-pane .scroll-bar:vertical .increment-button .arrow,
+.dialog-scroll-pane .scroll-bar:vertical .decrement-button .arrow {
+    -fx-background-color: #FFC107;
+}
